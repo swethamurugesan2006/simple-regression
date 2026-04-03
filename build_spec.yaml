@@ -1,0 +1,8 @@
+version: 0.1
+component: build
+
+steps:
+  - type: Command
+    name: Run Regression Test
+    command: |
+      mvn clean test
